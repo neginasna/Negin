@@ -6,7 +6,16 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     font-family: sans-serif;
 }
 
+.flex {
+    display: flex;
+}
+
+header {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/benzhead.png) no-repeat center bottom / cover;
+}
