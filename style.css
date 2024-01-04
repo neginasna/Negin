@@ -11,11 +11,73 @@ body {
     font-family: sans-serif;
 }
 
+::selection {
+    background-color: crimson;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
 .flex {
     display: flex;
 }
 
-header {
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    font-size: 12px;
+}
+
+nav ul {
+    gap: 40px;
+}
+
+nav > ul a {
+    border-right: 1px solid white;
+    padding-right:30px;
+}
+
+nav .left {
+    margin-left: 50px;
+}
+
+nav .right {
+    margin-right: 50px;
+}
+
+.no-border {
+    border-right: none;
+}
+
+nav img {
+ margin-right: 100px;
+}
+
+nav a:hover{
+    color: rgb(216, 74, 122);
+    transition: 0.6s;
+}
+
+
+
+
+/* header {
     background:
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/benzhead.png) no-repeat center bottom / cover;
-}
+} */
